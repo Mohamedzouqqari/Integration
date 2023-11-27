@@ -1,0 +1,162 @@
+body{
+    height: 60em;
+    width: 99%;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    color: grey;
+    height: 5em;
+    width: 94em;
+    justify-content: space-between;
+    
+}
+
+.Navv{
+    display: flex;
+    height: 6em;
+    width: 6em;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 67em;
+}
+
+.Navv:hover{
+    color: rgb(0, 200, 255);
+    background-color: white;
+   border-top-style: solid;
+    border-top-color:rgb(0, 200, 255);
+}
+
+.NAV{
+        display: flex;
+        height: 6em;
+        width: 7em;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.NAV:hover{
+    color: rgb(0, 200, 255);
+    background-color: white;
+   border-top-style: solid;
+    border-top-color:rgb(0, 200, 255);
+}
+
+
+.Titre{
+    height: 4em;
+    width: 47em;
+    margin: 3em;
+    border-radius: 30px;
+}
+
+.Recherche{
+    display: flex;
+}
+.maps{
+    height: 2em;
+    width: 2em;
+}
+
+input{
+    border-radius: 15px;
+    height: 3em;
+    width: 15em;
+    border: none;
+    color: black;
+}
+
+.bouton{
+    background-color:rgb(0, 200, 255) ;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    height: 3em;
+    width: 8em;
+    font-weight: 700;
+}
+
+.Filtre{
+    height: 3em;
+    width: 55em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+button{
+    border-radius: 15px;
+    height: 3em;
+    width: 10em;
+}
+
+
+
+main{
+    display: flex;
+    height: 65em;
+    width: 94em;
+}
+
+.tit{
+   right: 46em;
+   top: 18em;
+    margin: 2em;
+    padding: 1em;
+    position: absolute;
+}
+
+.Hebergement{
+   display: flex;
+    margin:2em;
+    margin-top: 14em;
+    height: 40em;
+    width: 53em;
+    background-color: rgb(191, 181, 181);
+    align-items: center;
+    flex-wrap: wrap;
+   border-radius: 15px;
+    justify-content: space-evenly;
+
+}
+
+
+
+article{
+border-radius: 15px;
+    height: 10em;
+    width: 14em;
+    background-color: white;
+    margin-top: 2em;
+    border-style: solid;
+    border-color: white;
+}
+
+
+
+
+.Populaire{
+   display: flex;
+    margin-top: 14em;
+    height: 40em;
+    width: 35em;
+    background-color:rgb(191, 181, 181) ;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Canebiere{
+    width: 14em;
+    height: 10em;
+}
+.pic1{
+    width: 14em;
+    height: 6em;
+   border-radius: 15px 15px 0 0;
+}
+
