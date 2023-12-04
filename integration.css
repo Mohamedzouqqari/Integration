@@ -1,5 +1,5 @@
 body{
-    height: 60em;
+    height: 120em;
     width: 99%;
     background-color: white;
 }
@@ -86,19 +86,22 @@ input{
     display: flex;
     justify-content: space-around;
     margin-top: 4em;
+    font-weight: bolder;
 }
 
 button{
+    background-color: white;
     border-radius: 15px;
     height: 3em;
-    width: 10em;
+    width: 11em;
+    font-weight: inherit;
 }
 
 
 
 main{
     display: flex;
-    height: 65em;
+    height: 68em;
     width: 94em;
 }
 
@@ -114,9 +117,9 @@ main{
    display: flex;
     margin:2em;
     margin-top: 14em;
-    height: 40em;
+    height: 50em;
     width: 53em;
-    background-color: rgb(191, 181, 181);
+    background-color: #F2F2F2;
     align-items: center;
     flex-wrap: wrap;
    border-radius: 15px;
@@ -128,35 +131,543 @@ main{
 
 article{
 border-radius: 15px;
-    height: 10em;
+    height: 13em;
     width: 14em;
     background-color: white;
     margin-top: 2em;
     border-style: solid;
     border-color: white;
-}
-
-
-
-
-.Populaire{
-   display: flex;
-    margin-top: 14em;
-    height: 40em;
-    width: 35em;
-    background-color:rgb(191, 181, 181) ;
-    flex-direction: column;
-    align-items: center;
+    box-shadow: 4px 6px 14px;
 }
 
 
 .Canebiere{
     width: 14em;
-    height: 10em;
+    height: 13em;
 }
 .pic1{
     width: 14em;
-    height: 6em;
+    height: 7em;
    border-radius: 15px 15px 0 0;
 }
 
+.un{
+    margin: 1em;
+    margin-top: -1em;
+}
+.nuit{
+    margin-top: -1em;
+}
+
+.Notation1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+
+.Etoile {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+
+.Port {
+    width: 14em;
+    height: 13em;
+    
+}
+
+.Pic2 {
+width: 14em;
+height: 7em;
+border-radius:15px 15px 0 0 ;
+}
+
+.deux {
+    margin: 1em;
+    margin-top: -1em;
+}
+
+.hotel {
+    margin-top: -1em;
+}
+
+.Notation2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+.Etoile2 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+.Mouettes {
+    width: 14em;
+    height: 13em;
+    
+}
+
+.pic3 {
+width: 14em;
+height: 7em;
+border-radius:15px 15px 0 0 ;
+}
+
+.trois {
+    margin: 1em;
+    margin-top: -1em;
+}
+
+.hotel3 {
+    margin-top: -1em;
+}
+
+.Notation3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+.Etoile3 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+.Mer {
+    width: 14em;
+    height: 13em;
+    
+}
+
+.pic4 {
+width: 14em;
+height: 7em;
+border-radius:15px 15px 0 0 ;
+}
+
+.quatre {
+    margin: 1em;
+    margin-top: -1em;
+}
+
+.hotel4 {
+    margin-top: -1em;
+}
+
+.Notation4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+.Etoile4 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+.Panier {
+    width: 14em;
+    height: 13em;
+    
+}
+
+.pic5 {
+width: 14em;
+height: 7em;
+border-radius:15px 15px 0 0 ;
+}
+
+.cinq {
+    margin: 1em;
+    margin-top: -1em;
+}
+
+.hotel5 {
+    margin-top: -1em;
+}
+
+.Notation5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+.Etoile5 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+.Amina {
+    width: 14em;
+    height: 13em;
+    
+}
+
+.pic6 {
+width: 14em;
+height: 7em;
+border-radius:15px 15px 0 0 ;
+}
+
+.six {
+    margin: 1em;
+    margin-top: -1em;
+}
+
+.hotel6 {
+    margin-top: -1em;
+}
+
+.Notation6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+
+}
+
+.Etoile6 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+
+.Populaire{
+    display: flex;
+     margin-top: 14em;
+     height: 50em;
+     width: 35em;
+     background-color:#F2F2F2 ;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
+ }
+
+ .tiit{
+    right: 12em;
+    top: 19em;
+     margin: 2em;
+     padding: 1em;
+     position: absolute;
+ }
+
+ .Matin{
+    display: flex;
+    border-radius: 15px;
+height: 9em;
+width: 25em;
+background-color: white;
+margin-top: 2em;
+border-style: solid;
+border-color: white;
+box-shadow: 4px 6px 14px;
+justify-content: space-evenly;
+ }
+
+
+.pic7 {
+width: 12em;
+height: 9em;
+border-radius:15px 0px 0 15px ;
+}
+
+.sept {
+   display: flex;
+   flex-wrap: wrap;
+    margin: 1em;
+    margin-top: -1em;
+align-items: center;
+align-content: stretch;
+
+}
+
+.hotel7 {
+    margin-top: -5em;
+}
+
+.Notation7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    height: 2em;
+    width: 10em;
+    right: 8em;
+    bottom: -4em;
+
+}
+
+.Etoile7 {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 200, 255);
+    
+}
+
+
+
+
+ .Eau{
+    display: flex;
+    border-radius: 15px;
+height: 9em;
+width: 25em;
+background-color: white;
+margin-top: 2em;
+border-style: solid;
+border-color: white;
+box-shadow: 4px 6px 14px;
+justify-content: space-evenly;
+ }
+
+ .pic8 {
+    width: 14em;
+    height: 9em;
+    border-radius:15px 0px 0 15px ;
+    }
+    
+    .huit {
+       display: flex;
+       flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -1em;
+    align-items: center;
+    align-content: stretch;
+    
+    }
+    
+    .hotel8 {
+        margin-top: -5em;
+    }
+    
+    .Notation8 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        position: absolute;
+        height: 2em;
+        width: 10em;
+        right: 8em;
+        bottom: -15em;
+    
+    }
+    
+    .Etoile8 {
+        font-size: 1.5rem;
+        background-color: transparent;
+        border: transparent;
+        color: rgb(0, 200, 255);
+        
+    }
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .Blanc{
+    display: flex;
+    border-radius: 15px;
+height: 9em;
+width: 25em;
+background-color: white;
+margin-top: 2em;
+border-style: solid;
+border-color: white;
+box-shadow: 4px 6px 14px;
+justify-content: space-evenly;
+ }
+
+ .pic9 {
+    width: 19em;
+    height: 9em;
+    border-radius:15px 0px 0 15px ;
+    }
+    
+    .neuf {
+       display: flex;
+       flex-wrap: wrap;
+        margin: 1em;
+        margin-top: -1em;
+    align-items: center;
+    align-content: stretch;
+    
+    }
+    
+    .hotel9 {
+        margin-top: -5em;
+    }
+    
+    .Notation9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        position: absolute;
+        height: 2em;
+        width: 10em;
+        right: 8em;
+        bottom: -26em;
+    
+    }
+    
+    .Etoile9 {
+        font-size: 1.5rem;
+        background-color: transparent;
+        border: transparent;
+        color: rgb(0, 200, 255);
+        
+    }
+
+
+
+    .Activites{
+        width: 94em;
+        height: 60em;
+        background-color: white;
+        display: block;
+    }
+
+.titree{
+    margin: 4em;
+}
+
+    .Action{
+        display: flex;
+        width: 94em;
+        height: 35em;
+        background-color: white;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .Vieux{
+        width: 18em;
+        height: 31em;
+    }
+
+    .Vie{
+        width: 18em;
+        height: 27em;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .Fort{
+        width: 18em;
+        height: 31em;
+    }
+
+    .Pomègues{
+        width: 18em;
+        height: 27em;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .Parc{
+        width: 18em;
+        height: 31em;
+    }
+
+    .nation{
+        width: 18em;
+        height: 27em;
+        border-radius: 15px 15px 0 0;
+    }
+    .Notre{
+        width: 18em;
+        height: 31em;
+        
+    }
+
+    .Dame{
+        width: 18em;
+        height: 27em;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+    footer{
+        height: 20em;
+        width: 87em;
+        background-color: #F2F2F2;
+        display: flex;
+        margin: 2em;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .pro{
+        height: 20em;
+        width: 11em;
+    }
+
+    .quali{
+        height: 20em;
+        width: 16em;
+    }
+
+    .assi{
+        height: 20em;
+        width: 11em;
+    }
